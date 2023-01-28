@@ -1,0 +1,48 @@
+@import url(reset.css);
+
+
+.title {
+    color: blueviolet;
+}
+.miracle1-title {
+    color: darkcyan;
+}
+.miracle1 p {
+    color: cornflowerblue;
+}
+.miracle2-title {
+    color: darkgray;
+}
+.miracle2 > p {
+    color: chocolate;
+}
+.miracle3-title {
+    color: blue;
+}
+.miracle3 p {
+    color: rgb(141, 78, 0);
+}
+
+/* -----miracle4 в html----- */
+
+h2.miracle5-title {
+    color: rgb(225, 0, 255);
+}
+div.miracle5 p {
+    color: rgb(0, 255, 0);
+}
+.miracle6-title {
+    color: hotpink;
+}
+.miracle6 p {
+    color: aqua;
+}
+.miracle7 * {
+    color: rgb(0, 0, 241);
+}
+.articles {
+    color: darkcyan;
+}
+.links .link {
+    color: darkgreen;
+}
