@@ -1,0 +1,57 @@
+@import url(reset.css);
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=swap);
+
+.wrapper {
+    box-sizing: border-box;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 1.7;
+    font-family: "Poppins";
+    color: #6C757D;
+    font-weight: 300;
+
+}
+.main-item {
+    width: 816px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.6;
+    color: #212529;
+    margin-bottom: 40px;
+}
+.text-first {
+    margin-bottom: 40px;
+
+}
+.img-first{
+    text-align: center;
+    margin-bottom: 80px;
+    max-width: 100%;
+    font-size: 0px;
+}
+.img-desert{
+    max-width: 100%;
+
+}
+
+.img {
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 0px;
+    max-width: 100%;
+    display: block;
+}
+.img-river{
+    margin-right: 30px;
+    max-width: 100%;
+}
+.img-forest{
+    max-width: 100%;
+}
+
+.footer {
+}
