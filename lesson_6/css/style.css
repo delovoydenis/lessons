@@ -1,0 +1,74 @@
+@import url(reset.css);
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=swap);
+[class*="__container"]{
+    max-width: 1270px;
+    margin: 0 auto;
+    font-family: "Poppins";
+    font-weight: 300;
+    color: #6C757D;
+    font-size: 14px;
+    line-height: 1.78;
+    padding: 0 15px;
+}
+.main {
+
+}
+.article {
+    padding: 50px 0;
+}
+.article__container{
+    
+}
+.article__container p {
+    margin-bottom: 30px ;
+}
+.text-block {
+    max-width: 816px;
+    margin: 0 auto 80px;
+}
+.article-title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.6;
+    color: #212529;
+    margin-bottom: 40px;
+}
+.images{
+    max-width: 100%;
+    margin-bottom: 80px;
+    font-size: 0;
+
+}
+.image-1{
+}
+.image-2{
+    margin-right: 30px;
+}
+.image-3{
+}
+.image-4{
+    width: 100%;
+ 
+}
+.image-5{
+    margin-right: 30px;
+}
+.image-6{
+}
+/* ---------- */
+
+.last__container {
+    padding-bottom: 50px;
+}
+.border {
+    border: 2px dashed rebeccapurple;
+    box-shadow: 3px 3px 10px inset black;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.outline {
+    outline: 3px solid greenyellow;
+    border-radius: 16px;
+    opacity: 0.6;
+    box-shadow: 2px 5px 10px rgb(55, 55, 209);
+}
