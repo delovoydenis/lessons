@@ -1,0 +1,226 @@
+@import url(reset.css);
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap);
+
+[class*="__container"]{
+    max-width: 1270px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header {
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.6;
+    color: #E5E5E5;
+}
+.wrapper {
+    background: url(../img/01.jpg) 50% / cover no-repeat;
+    height: 600px;
+}
+.header__container {
+    padding-top: 330px;
+}
+.header-data {
+    margin-bottom: 15px;
+    opacity: 0.8;
+}
+.header-title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #F8F9FA;
+}
+.header-sub-title {
+    padding-bottom: 100px;
+    opacity: 0.8;
+}
+.main {
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 0.9;
+    color: #637381;
+}
+.main__container {
+}
+.main-header {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1;
+    color: #212B36;
+    padding-top: 90px;
+    margin-bottom: 45px;
+}
+.items ul {
+    margin-bottom: 60px;
+}
+li {
+    margin-bottom: 18px;
+}
+li:last-child{
+    margin-bottom: 0px;
+}
+.list-1 li {
+    background: url(../img/02.svg) 0 / 8px 8px no-repeat;
+    padding-left: 18px;
+}
+.list-1 li:last-child:hover{
+    color: rgb(35, 50, 255);
+}
+.list-1 li:first-child:hover{
+    color: #6700ac;
+}
+.list-1 li:nth-child(odd){
+    color: #e100ff;
+}
+.list-1 li:nth-child(even){
+    color: #ff00c8;
+}
+.list-2 li {
+    background: url(../img/03.svg) 0 center / 20px 20px no-repeat;
+    padding-left: 30px;
+    height: 20px;
+}
+.list-2 li:first-child{
+    color: #6700ac;
+}
+.list-2 li:last-child:hover{
+    color: rgb(218, 4, 129);
+}
+.list-2 li:not(:first-child){
+    color: rgb(0, 172, 29);
+}
+.list-3 li {
+    background: url(../img/04.svg) 0 / 20px 20px no-repeat;
+    padding-left: 30px;
+    height: 20px;
+}
+.list-3 li:nth-child(1){
+    color: rgb(255, 145, 0);
+}
+.list-3 li:nth-child(2){
+    color: rgb(229, 255, 0);
+}
+.list-3 li:nth-child(3){
+    color: rgb(157, 255, 0);
+}
+.list-3 li:nth-child(4){
+    color: rgb(43, 255, 0);
+}
+.list-3 li:nth-child(5){
+    color: rgb(0, 255, 179);
+}
+.list-4 li {
+    background: url(../img/05.svg) left 3px / 20px 8px no-repeat;
+    padding-left: 30px;
+    height: 20px;
+}
+.list-4 li:hover{
+    padding-left: 27px;
+    transition: all 0.3s;
+    text-shadow: 0 2px 7px #212B36 ;
+}
+.list-5 li {
+    background: url(../img/06.svg) 0 / 20px 20px no-repeat;
+    padding-left: 30px;
+    height: 20px;
+}
+.list-5 li:first-of-type{
+    color: #9200f3;
+}
+.list-5 li:last-of-type{
+    color: #6700ac;
+}
+.list-6 li {
+    background: url(../img/07.svg) 0 / 18px 18px no-repeat;
+    padding-left: 30px;
+    height: 17px;
+}
+.list-6 li:nth-child(odd){
+    color: #9200f3;
+}
+.list-6 li:nth-child(even){
+    color: #cb00f3;
+}
+.list-5 li:not(:last-child){
+    color: #5900ff;
+}
+.footer {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.3;
+    height: 560px;
+    
+}
+.footer__container {
+    max-width: 1170px;
+}
+.footer-block {
+    display: inline-block;
+}
+.prise {
+    color: #3056D3;
+    margin-bottom: 13px;
+    padding-top: 145px;
+}
+.footer-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.25;
+    margin-bottom: 15px;
+    width: 470px;
+}
+.footer-sub-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #637381;
+    margin-bottom: 35px;
+    width: 570px;
+}
+.batton {
+    padding: 10px 30px;
+    background-color: #3056D3;
+    border-radius: 30px;
+    color: #ffffff;
+    font-size: 16px;
+}
+.batton:hover{
+    background-color: #6700ac;
+    transition: all 0.3s;
+}
+.batton:active{
+    background-color: #000000;
+}
+.img-music{
+    margin-left: 179px;
+    padding-top: 80px;
+}
+.practice__container {
+    font-family: "Poppins";
+    padding-bottom: 70px;
+}
+.practice__container li::before{
+    content: "";
+    display: inline-block;
+    background-color: #7100f1;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 1px;
+}
+.practice__container li::after{
+    content: "";
+    display: inline-block;
+    background-color: #7100f1;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 1px;
+}
+
